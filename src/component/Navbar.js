@@ -1,5 +1,5 @@
 import React from "react";
-import {Divider, Flex, Text } from "@chakra-ui/react";
+import {  Divider, Flex, Text } from "@chakra-ui/react";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "@chakra-ui/react";
 
 const Navbar = ({ items }) => {
