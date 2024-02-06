@@ -20,7 +20,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <ChakraProvider>
+    <Flex justify="start" flexDir="column" alignItems="center">
       <Flex
         justify="center"
         alignItems="center"
@@ -31,9 +31,9 @@ const Home = () => {
       >
         Internship Program
       </Flex>
-      <Divider />
+      <Divider w="50%" />
 
-      <Flex justifyContent="center" p="40px">
+      <Flex justifyContent="center" p="40px" pt="10px">
         <SimpleGrid
           p="40px"
           spacing={4}
@@ -70,7 +70,7 @@ const Home = () => {
           </Card>
         </SimpleGrid>
       </Flex>
-    </ChakraProvider>
+    </Flex>
   );
 };
 

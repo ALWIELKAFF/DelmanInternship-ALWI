@@ -1,10 +1,12 @@
-import React from 'react'
-import UserFetcher from './UserFetcher'
+import React from "react";
+import UserFetcher from "../../component/UserFetcher";
 
 const index = () => {
   return (
-    <div><UserFetcher /></div>
-  )
-}
+    <div>
+      <UserFetcher />
+    </div>
+  );
+};
 
-export default index
+export default index;
