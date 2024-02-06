@@ -1,5 +1,5 @@
 import React from "react";
-import UserFetcher from "../../component/UserFetcher";
+import UserFetcher from "@/component/UserFetcher";
 
 const index = () => {
   return (

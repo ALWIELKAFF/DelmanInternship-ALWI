@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../component/Navbar";
-import Home from "../component/Home";
+import Navbar from "@/component/Navbar";
+import Home from "@/component/Home";
 
 const index = () => {
   return (
     <div>
       {" "}
-      <Navbar />
+      <Navbar items={[{text:"Internship program", link:"#"}]}/>
       <div>
         {" "}
         <Home />{" "}
