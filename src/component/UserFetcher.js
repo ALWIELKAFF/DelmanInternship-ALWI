@@ -30,9 +30,7 @@ const UserFetcher = () => {
     }
   };
 
-  useEffect(() => {
-    fetchPerson();
-  }, []);
+  
 
   const getCardColor = () => {
     if (!person) return "#FFFFFF";
@@ -44,7 +42,7 @@ const UserFetcher = () => {
       <Navbar
         items={[
           {
-            text: "Home",
+            text: "Internship Program",
             link: "/",
           },
           {

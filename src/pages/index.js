@@ -6,7 +6,7 @@ const index = () => {
   return (
     <div>
       {" "}
-      <Navbar />
+      <Navbar items={[{text:"Internship program", link:"#"}]}/>
       <div>
         {" "}
         <Home />{" "}
