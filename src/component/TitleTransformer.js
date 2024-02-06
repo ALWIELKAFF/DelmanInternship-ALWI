@@ -19,11 +19,9 @@ const TitleTransformer = () => {
     const interval = setInterval(() => {
       if (!isRandom) return;
       setTitleColors((prevColors) => {
-        const newColors = [...prevColors];
-        let randomColor =
-          "#" + Math.floor(Math.random() * 16777215).toString(16);
-        newColors[Math.floor(Math.random() * titles.length)] = randomColor;
-        return newColors;
+        return prevColors.map((color, index) => {
+          return "#" + Math.floor(Math.random() * 16777215).toString(16);
+        });
       });
       setTitleCount((prevCount) => prevCount + 1);
     }, 1000);
